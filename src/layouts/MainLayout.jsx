@@ -18,7 +18,17 @@ function MainLayout({ children }) {
                     {children}
                 </div>
                 <ToastContainer />
+                <img className='p-5 mb-4 mt-5 ml-5' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvfuwwWjG-0QYtYJDB2iiejPvF_mSo6gGsNg&usqp=CAU" alt="React Image" />
             </main>
+            <footer>
+                <nav className="navbar fixed-bottom navbar-light bg-dark">
+                    <div className="container">
+                        <Link to="/" className="navbar-brand text-light ">   <ul>
+                            <p>Copyright &copy; 2023 Kriti Inc. All rights reserved.</p>
+                        </ul></Link>
+                    </div>
+                </nav>
+            </footer>
         </div>
     )
 }

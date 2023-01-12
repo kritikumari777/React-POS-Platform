@@ -33,3 +33,7 @@ code {
   background-color: #1a2225;
   color: aliceblue;
 }
+
+.bg-img {
+  background-image: url(https://reactjs.org/logo-og.png);
+}
